@@ -1,7 +1,7 @@
 text=""
 
 while IFS='$\n' read -r line; do
-  text="$text$line\n"
+  text="$text$line\0\n"
 done
 
 text="$text\n\n\n\n"
