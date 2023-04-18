@@ -1,8 +1,25 @@
-Usage:
-command | bash print.sh [printer name] [printer ip]
+print.sh
+===========================================
 
-Prints STDOUT of command
+Usage:
+| bash print.sh [printer name] [opts]
+
+Prints STDOUT of piped command
 
 Requirements:
 * lp - printing
-* netcat - cutting
+
+Options:
+--nocut - Does not cut paper automatically
+
+
+cut.sh
+===========================================
+
+Usage:
+bash cut.sh [printer name]
+
+Cuts paper
+
+Requirements:
+* lp - printing
