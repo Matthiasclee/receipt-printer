@@ -6,4 +6,3 @@ Prints STDOUT of command
 Requirements:
 * lp - printing
 * netcat - cutting
-* zenity - alert
