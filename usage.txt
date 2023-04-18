@@ -1,0 +1,9 @@
+Usage:
+command | bash print.sh [printer name] [printer ip]
+
+Prints STDOUT of command
+
+Requirements:
+* lp - printing
+* netcat - cutting
+* zenity - alert
