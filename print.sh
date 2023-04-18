@@ -1,6 +1,6 @@
 text=""
 
-while IFS='$\n' read -r line; do
+while read -r line; do
   text="$text$line\0\n"
 done
 
